@@ -1,0 +1,65 @@
+body 
+{
+    background: url('images3/fond_jaune.png');
+    font-family: 'Trebuchet MS';
+    width: 900px;
+    margin: auto;
+}
+
+fieldset 
+{
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+legend
+{
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+label 
+{
+    font-size: 13px;
+}
+
+fieldset > label 
+{
+    display: block;
+    margin-bottom: 3px;
+}
+
+input[type="text"],input[type="email"],input[type="tel"] 
+{
+    display: block;
+    box-sizing: border-box;
+    margin: 5px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus 
+{
+    background: #eaeaea;
+}
+
+#m 
+{
+    width: 400px;
+    height: 200px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],input[type="reset"] 
+{
+    width: 100px;
+    margin: 10px;
+}
+
+.civilite 
+{
+    margin-bottom: 3px;
+}
